@@ -13,3 +13,4 @@ const useTheme = () => useContext(ThemeContext);
 export const ThemeProvider = ThemeContext.Provider;
 
 export default useTheme;
+// not used in this project
