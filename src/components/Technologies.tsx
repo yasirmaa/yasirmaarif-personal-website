@@ -24,7 +24,7 @@ const Technologies = () => {
   return (
     <section id="technologies" className="pt-20">
       <h2 className="text-4xl font-semibold text-center">Technologies</h2>
-      <div className="flex items-center justify-center mt-16 gap-4">
+      <div className="flex items-center justify-center mt-16 gap-x-4 gap-y-5 max-w-screen-lg flex-wrap mx-auto px-8">
         <motion.div
           variants={iconVariants(2)}
           initial="initial"

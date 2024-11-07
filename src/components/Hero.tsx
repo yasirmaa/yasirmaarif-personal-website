@@ -15,8 +15,19 @@ const motionVariants = (delay: number) => ({
 
 export const Hero = () => {
   return (
-    <section id="hero" className="grid grid-cols-12 max-w-screen-xl mx-auto pt-20 h-[700px]">
-      <div className="col-span-6 flex flex-col items-start justify-center">
+    <section
+      id="hero"
+      className="grid grid-cols-1 md:grid-cols-12 max-w-screen-xl px-8 2xl:px-0 lg:px-10 mx-auto pt-20 h-[700px]"
+    >
+      <motion.img
+        initial={{ x: 10, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1, delay: 1.2 }}
+        src={yasirPict}
+        alt=""
+        className="w-full"
+      />
+      <div className="md:col-span-6 flex flex-col items-start justify-center">
         <motion.h1
           variants={motionVariants(0)}
           initial="hidden"
@@ -39,7 +50,7 @@ export const Hero = () => {
           Hire Me!
         </button>
       </div>
-      <div className="col-span-6 flex justify-end items-center">
+      <div className="hidden md:col-span-6 md:flex justify-end items-center">
         <motion.img
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}

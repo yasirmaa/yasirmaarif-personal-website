@@ -5,7 +5,7 @@ import projectRedux from '@/assets/project-redux.png';
 
 const Projects = () => {
   return (
-    <section id="projects" className="max-w-screen-xl mx-auto py-20">
+    <section id="projects" className="max-w-screen-xl mx-auto py-20 px-8 2xl:px-0 lg:px-10">
       <h2 className="text-4xl font-semibold text-center mb-16">My Projects</h2>
       <div className="grid grid-cols-6 gap-4">
         {/* Project 1: ReMi Web */}
