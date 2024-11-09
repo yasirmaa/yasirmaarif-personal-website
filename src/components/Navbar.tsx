@@ -12,8 +12,6 @@ export const Navbar = () => {
   const { theme, setDarkTheme, setLightTheme } = useTheme();
 
   const handleTheme = () => {
-    console.log('theme');
-
     if (document.querySelector('html')?.classList.contains('dark')) {
       setLightTheme();
     } else {
@@ -41,7 +39,7 @@ export const Navbar = () => {
         'fixed top-0 z-50 flex w-full items-center justify-center bg-transparent py-5 shadow-none transition-all duration-300 md:py-4 ',
         {
           'bg-transparent': !blur,
-          'bg-white/10 backdrop-blur-sm backdrop-filter': blur,
+          'bg-white/50 backdrop-blur-sm backdrop-filter': blur,
         }
       )}
     >
