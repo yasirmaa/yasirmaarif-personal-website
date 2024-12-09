@@ -11,6 +11,7 @@ const contentProject = [
     description: 'A web-based platform for managing tasks with reminder notifications.',
     link: 'https://remi.agileteknik.com/',
     image: projectRemi,
+    viewText: 'Website',
   },
   {
     title: 'ReMi: Reminder Me Mobile',
@@ -18,6 +19,7 @@ const contentProject = [
     description: 'A mobile app for setting and receiving task reminders on-the-go.',
     link: 'https://play.google.com/store/apps/details?id=com.agileteknik.remi',
     image: projectRemiMobile,
+    viewText: 'in Play Store',
   },
   {
     title: 'Online E-Commerce Store with Laravel',
@@ -25,6 +27,7 @@ const contentProject = [
     description: 'An e-commerce website for managing and selling products online.',
     link: 'https://ecommerce.example.com',
     image: projectEcommerce,
+    viewText: 'in GitHub',
   },
   {
     title: 'E-Commerce with React Redux',
@@ -32,6 +35,7 @@ const contentProject = [
     description: 'An advanced e-commerce platform implementing Redux for state management.',
     link: 'https://redux-ecommerce.example.com',
     image: projectRedux,
+    viewText: 'in GitHub',
   },
 ];
 
@@ -42,7 +46,7 @@ const Projects = () => {
       className="max-w-screen-xl mx-auto pt-12 md:pt-20 px-8 2xl:px-0 lg:px-10"
     >
       <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8 md:mb-16">My Projects</h2>
-      <div className="grid grid-cols-6 gap-4">
+      <div className="grid grid-cols-6 gap-8">
         {contentProject.map((project, index) => (
           <ProjectCard
             key={index}
@@ -51,6 +55,7 @@ const Projects = () => {
             image={project.image}
             description={project.description}
             link={project.link}
+            viewText={project.viewText}
           />
         ))}
       </div>

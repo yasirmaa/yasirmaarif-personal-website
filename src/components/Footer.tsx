@@ -11,7 +11,7 @@ export const Footer = () => {
           <div className="mb-6 md:mb-0">
             <a href="#  " className="flex items-center">
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Yasirmaa
+                Yasirmaarif
               </span>
             </a>
           </div>
@@ -22,12 +22,15 @@ export const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://flowbite.com/" className="hover:underline">
+                  <a href="https://react.dev/" className="hover:underline hover:text-cyan-500">
                     React JS
                   </a>
                 </li>
                 <li>
-                  <a href="https://tailwindcss.com/" className="hover:underline">
+                  <a
+                    href="https://tailwindcss.com/"
+                    className="hover:underline hover:text-cyan-500"
+                  >
                     Tailwind CSS
                   </a>
                 </li>
@@ -39,12 +42,20 @@ export const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://github.com/themesberg/flowbite" className="hover:underline ">
+                  <a
+                    href="https://github.com/yasirmaa"
+                    target="_blank"
+                    className="hover:underline hover:text-cyan-500 "
+                  >
                     Github
                   </a>
                 </li>
                 <li>
-                  <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">
+                  <a
+                    href="https://www.linkedin.com/in/yasirmaarif/"
+                    target="_blank"
+                    className="hover:underline hover:text-cyan-500"
+                  >
                     LinkedIn
                   </a>
                 </li>
@@ -56,8 +67,8 @@ export const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{' '}
-            <a href="#" className="hover:underline">
-              Yasirmaa™
+            <a href="#" className="hover:underline ">
+              Yasirmaarif™
             </a>
             . All Rights Reserved.
           </span>

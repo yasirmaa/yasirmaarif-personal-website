@@ -39,21 +39,21 @@ export const Navbar = () => {
         'fixed top-0 z-50 flex w-full items-center justify-center bg-transparent py-5 shadow-none transition-all duration-300 md:py-4 ',
         {
           'bg-transparent': !blur,
-          'bg-white/50 backdrop-blur-sm backdrop-filter': blur,
+          'bg-white/50 backdrop-blur-sm backdrop-filter dark:bg-black/50': blur,
         }
       )}
     >
       <div className="flex w-full items-center justify-between px-8 2xl:px-0 lg:px-10 max-w-screen-xl">
-        <div className="flex items-center gap-2">
-          <a href="/" className="md:h-10 h-7">
+        <a href="/" className="flex items-center gap-2">
+          <div className="md:h-10 h-7">
             {theme === 'dark' ? (
               <img src={ymLogoWhite} alt="Remi Logo" className="h-full" />
             ) : (
               <img src={ymLogoBlack} alt="Remi Logo" className="h-full" />
             )}
-          </a>
-          <span className="font-bold md:text-2xl text-xl">Yasirmaa</span>
-        </div>
+          </div>
+          <span className="font-bold md:text-2xl text-xl">Yasirmaarif</span>
+        </a>
 
         <div className="hidden gap-x-10 font-semibold md:flex">
           <a href="#hero" className="hover:text-remi-red">

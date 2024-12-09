@@ -22,8 +22,8 @@ const iconVariants = (duration: number) => ({
 
 const Technologies = () => {
   return (
-    <section id="technologies" className="pt-12 md:pt-20">
-      <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8 md:mb-16">Technologies</h2>
+    <section id="technologies" className="pt-12 md:pt-28">
+      <h2 className="text-3xl md:text-4xl font-semibold text-center mb-8 md:mb-12">Technologies</h2>
       <div className="flex items-center justify-center gap-x-4 gap-y-5 max-w-screen-lg flex-wrap mx-auto px-8">
         <motion.div
           variants={iconVariants(2)}

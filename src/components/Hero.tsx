@@ -17,7 +17,7 @@ export const Hero = () => {
   return (
     <section
       id="hero"
-      className="grid grid-cols-1 md:grid-cols-12 max-w-screen-xl px-8 2xl:px-0 lg:px-10 mx-auto pt-20 md:pt-32 lg:pt-20"
+      className="grid grid-cols-1 md:grid-cols-12 max-w-screen-xl px-8 2xl:px-0 lg:px-10 mx-auto pt-20 md:pt-32 lg:pt-32"
     >
       <motion.img
         initial={{ x: 10, opacity: 0 }}
