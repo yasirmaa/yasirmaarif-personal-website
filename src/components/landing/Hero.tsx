@@ -46,9 +46,11 @@ export const Hero = () => {
           I'm a passionate student constantly learning and exploring the world of web development.
           Join me on my journey as I build and create amazing web experiences.
         </motion.p>
-        <button className="bg-cyan-600 text-white px-4 py-2 font-semibold rounded-xl mt-4">
-          Hire Me!
-        </button>
+        <a href="https://www.linkedin.com/in/yasirmaarif/" target="_blank">
+          <button className="bg-cyan-600 text-white px-4 py-2 font-semibold rounded-xl mt-4">
+            Hire Me!
+          </button>
+        </a>
       </div>
       <div className="hidden md:col-span-5 lg:col-span-6 md:flex justify-end items-center">
         <motion.img
