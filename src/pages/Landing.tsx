@@ -1,9 +1,9 @@
-import { Footer } from '@/components/Footer';
-import { Hero } from '@/components/Hero';
-import { Navbar } from '@/components/Navbar';
-import Projects from '@/components/Projects';
-import { ScrollToTop } from '@/components/ScrollToTop';
-import Technologies from '@/components/Technologies';
+import { Footer } from '@/components/landing/Footer';
+import { Hero } from '@/components/landing/Hero';
+import { Navbar } from '@/components/landing/Navbar';
+import Projects from '@/components/landing/Projects';
+import { ScrollToTop } from '@/components/molecules/ScrollToTop';
+import Technologies from '@/components/landing/Technologies';
 import { useTheme } from '@/hooks/useTheme';
 
 const LandingPage = () => {

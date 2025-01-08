@@ -2,7 +2,7 @@ import projectRemi from '@/assets/project-remi.png';
 import projectRemiMobile from '@/assets/project-remi-mobile.png';
 import projectEcommerce from '@/assets/project-olshop-laravel.png';
 import projectRedux from '@/assets/project-redux.png';
-import { ProjectCard } from './organism/ProjectCard';
+import { ProjectCard } from '../organisms/ProjectCard';
 
 const contentProject = [
   {
